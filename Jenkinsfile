@@ -12,7 +12,7 @@ pipeline {
               sh './myProgram'
           }
       }
-      //stage('Deploy') {
+      stage('Deploy') {
           steps {
               echo 'deployment successful'
           }
